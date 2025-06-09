@@ -111,6 +111,14 @@ module Spaceship
                       attributes: {
                           enabled: enabled,
                           settings: settings
+                      },
+                      relationships: {
+                        capability: {
+                          data: {
+                              type: "capabilities",
+                              id: capability_type
+                            }
+                        }
                       }
                     }
                   ]
