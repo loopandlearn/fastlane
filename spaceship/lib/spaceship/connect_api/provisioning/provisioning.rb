@@ -77,6 +77,12 @@ module Spaceship
                     type: "bundleIds",
                     id: bundle_id_id
                   }
+                },
+                capability: {
+                  data: {
+                    type: "capabilities",
+                    id: capability_type
+                  }
                 }
               }
             }
